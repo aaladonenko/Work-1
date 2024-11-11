@@ -1,0 +1,242 @@
+{
+  margin: 0px;
+  padding: 0px;
+}
+main {
+  border: thin solid rgb(166, 166, 166);
+  width: 1440px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  border-radius: 10px;
+}
+header {
+  background-image: url(fon2l.JPEG);
+  border-radius: 10px 10px 0px 0px;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+nav {
+  background-image: url(prostov.jpg);
+  background-repeat: repeat-x;
+  font-family: "Snell Rounhand";
+  font-size: 85%;
+  line-height: 2em;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  background-position: 0px;
+  font-weight: lighter;
+  font-style: oblique;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  text-indent: 0px;
+}
+
+nav li {
+  margin-top: 0px;
+  margin-right: 28px;
+  margin-left: 80px;
+  margin-bottom: 0px;
+  display: inline;
+  height: auto;
+}
+nav li a {
+  text-decoration: none; /*убираем подчеркивание ссылок*/
+  color: #FF0F5;
+}
+nav li a:hover {
+  color: #9d0878;
+}
+
+div li a:hover {
+  color: #9d0878;
+}
+
+#sidebar {
+  /*стиль общий для всего эл-та*/
+  width: 220px;
+  height: 1750px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 30px;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  font-size: 130%;
+  background-color: #000000;
+  float: left;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+#sidebar li {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: left;
+}
+
+#sidebar li a {
+  text-decoration: none;
+  font-family: "Snell Rounhand";
+  font-weight: normal;
+  font-style: italic;
+  color: #aeaeae;
+}
+
+#sidebar li a:hover {
+  color: #9d0878;
+}
+
+footer {
+  background-color: #afafaf;
+  color: #FFF;
+  font-family: 'Snell Rounhand';
+  font-style: normal;
+  font-size: 120%;
+  padding: 5px;
+  width: 1430px;
+  height: 100px;
+  border-radius: 0px 0px 10px 10px;
+  clear: both;
+}
+body {
+  font-family: 'Snell Rounhand'; 
+  margin: 20px;
+  display: flex;
+  text-align: left;
+}
+.photo {
+  margin-right: 20px;
+}
+
+table {
+  border: 1px rgb(167, 167, 167);
+  width: 500px;
+  margin-left: 200px; 
+  margin-bottom: 20px;
+  border-radius: 0px; 
+  overflow: hidden;
+  background-color: #ffffff;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #ffffff;
+}
+.hsesymbol {
+width: 50px;
+border-radius: 10px;
+cursor: pointer;
+margin-top: 25px;
+margin-bottom: 20px;
+margin-left: 700px;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+#main_fon{
+  height: 734px;
+  background-image: url(fon.jpg);
+  background-repeat: no-repeat;
+}
+
+#pass_title{
+  padding-top: 41px;
+  padding-left: 74px;
+}
+
+.poiret-one-regular {
+  font-family: "Poiret One", sans-serif;
+  font-weight: italic;
+  font-style: normal;
+  letter-spacing: 0.8em;
+  word-spacing: 0.25em;
+}
+
+@font-face {
+  font-family: 'Kreadon';
+  src: local('Kreadon.ttf'),
+  url(/Kreadon.ttf.ttf);
+}
+.vidanstr1{
+  font-family: 'Kreadon';
+  padding-top: 20px;
+  padding-left: 145px;
+}
+.vidanstr2{
+  font-family: 'Kreadon';
+  padding-top: 10px;
+  padding-left: 175px;
+  word-spacing: 0.65em;
+}
+.vidanstrdata{
+  font-family: 'Kreadon';
+  padding-top: 37px;
+  padding-left: 105px;
+  word-spacing: 0.65em; 
+  float: left;
+}
+.vidanstrcode{
+  font-family: 'Kreadon';
+  padding-top: 37px; 
+  padding-left: 295px;
+  word-spacing: 0.65em;
+}
+.podpis{
+  padding-top: 30px;
+  padding-left: 55px;
+  float: left;
+}
+.podpis1{
+  padding-top: 50px;
+  padding-left: 115px;
+}
+.passfoto{
+  padding-top: 132px; 
+  padding-left: 22px;
+  float: left;
+}
+.hfamilia{
+  padding-top: 105px;
+  padding-left: 250px;
+}
+.hname {
+  padding-top: 37px;
+  padding-left: 250px;
+}
+.hfname{
+  padding-top: 10px;
+  padding-left: 250px;
+}
+.hpol{
+  padding-top: 10px;
+  padding-left: 40px;
+  float: left;
+}
+.hborn{
+  padding-top: 10px;
+  padding-left: 345px;
+}
+.hpborn1{
+  padding-top: 6px;
+  padding-left: 270px;
+  word-spacing: 0.7em;
+}
+.hpborn2{
+  padding-top: 10px;
+  padding-left:250px;
+}
